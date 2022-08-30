@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>♥🧡Hola bebé🧡♥</title>
+  <style>
+    .body {
+      background-color: rgb(12, 12, 12);
+      text-align: center;
+    }
+
+    .body__title {
+      color: rgb(255, 255, 255);
+    }
+
+    .body_img {
+      width: 100%;
+      border: 100%;      
+      
+    }
+  </style>
+</head>
+
+<body class="body"> 
+  <h1 class="body__title">♥🧡HOLA SEÑORITA PRECIOSA, BELLA, PRINCESA ¿QUIERE USTED SER MI ENAMORADA Y PERMITIR ASI QUE NOS QUERAMOS BONITO?🥺🥺♥🧡</h1>  
+  <img 
+    src="https://p4.wallpaperbetter.com/wallpaper/913/499/586/love-proposal-4k-wallpaper-preview.jpg" 
+    alt="foto de fondo" class="body_img" />
+  <button id="yes">😊SHI😊</button>
+  <button id="no">😭NEL PERRO😭</button>
+
+  <script>
+     const vutonSi  = document.getElementById('yes')
+     const vutonNo  = document.getElementById('no')
+
+    const YaSomosNovios = () => {
+      alert('!😊​NO SABES EN QUE TE ACABAS DE METER JAJAJAJ XD​😅​🧡!');
+      alert('!😊​PERO BUENO!🥺​');
+      alert('🧡!NO TE FALLARE NUNCA !🧡​');
+      alert('🧡!TE MERECES EL MUNDO ENTERO Y...!🧡');
+      alert('🧡!TE AMOO!🧡​');
+      location.href = 'https://www.youtube.com/watch?v=DTRIh6CM7Es0:20' ;
+
+    }
+
+    const ebitarKeDigasNo = () => {
+      vutonNo.style.position = 'absolute';
+      vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+      vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+    }
+
+    vutonSi.addEventListener('click', YaSomosNovios );
+    vutonNo.addEventListener('mouseover', ebitarKeDigasNo);
+
+   </script>
+</body>
+
+</html>
